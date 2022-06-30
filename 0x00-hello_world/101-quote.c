@@ -1,7 +1,6 @@
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - a function that prints out a message
+ * Return: returns a value of 1 when it runs successfully
  */
 #include <stdio.h>
 #include <unistd.h>
