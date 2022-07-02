@@ -8,7 +8,7 @@ int main (void)
   putchar('\n');
 
   /*UPPEERCASE*/
-  char cap_letter;
+
   for (cap_letter = 'A'; cap_letter <= 'Z'; letter++)
     putchar (letter);
   putchar('\n');
