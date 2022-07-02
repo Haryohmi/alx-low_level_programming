@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main (void)
+{
+  char letter;
+  for (letter = 'a'; letter = 'z'; letter++)
+    putchar (letter);
+  putchar('\n');
+
+  /*UPPEERCASE*/
+  char Cap_letter;
+  for (Cap_letter = 'A'; Cap_letter = 'Z'; letter++)
+    putchar (letter);
+  putchar('\n');
+  
+  return (0);
+}
+  
