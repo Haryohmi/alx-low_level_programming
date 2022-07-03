@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-int num;
-for (num = 0; num < 10; num++)
-printf("%d", num);
-printf("\n");
-return (0);
+  char letter;
+  for (letter = 'a'; letter <= 'z'; letter++)
+    putchar(letter);
+  putchar('\n');
+  return (0);
 }
