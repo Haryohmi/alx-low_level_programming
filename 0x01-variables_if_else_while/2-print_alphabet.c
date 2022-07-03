@@ -1,11 +1,15 @@
-#include<stdio.h>
+#include <stdio.h>
 
- /*Write a program that prints the alphabet in lowercase, followed by a new line*/
+/**
+ * main - Entry point
+ *
+ * Return: Always 0
+ */
 int main(void)
 {
-  char letter;
-  for (letter = 'a'; letter <= 'z'; letter++)
-     putchar (letter);
-   putchar ('\n');
-  return (0);
+char letter;
+for (letter = 'a'; letter <= 'z'; letter++)
+putchar(letter);
+putchar('\n');
+return (0);
 }
