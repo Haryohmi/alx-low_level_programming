@@ -1,4 +1,4 @@
-0-memset.c   2-strchr.c   0;276;0c#ifndef MAIN_H
+#ifndef MAIN_H
 #define MAIN_H
 
 
