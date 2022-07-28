@@ -28,13 +28,12 @@ k = 0;
 }
 else
 {
-for (k = 0; *(s2 + k) != '\0'; k++)
-;
+for (k = 0; *(s2 + k) != '\0'; k++);
 if (n < k)
 k = n;
 }
 k += i;
-c = malloc(sizeof(char) * (k + 1));
+c = malloc(sizeof(char) *(k + 1));
 if (c == NULL)
 return (NULL);
 for (a = 0; a < i; a++)
