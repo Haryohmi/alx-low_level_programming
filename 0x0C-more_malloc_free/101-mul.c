@@ -40,7 +40,7 @@ int j, k, mul, mulrem, add, addrem;
 mulrem = addrem = 0;
 for (j = num_index, k = dest_index; j >= 0; j--, k--)
 {
-mul = (n - '0') * (num[j] - '0') + mulrem;
+mul = (n - '0') *(num[j] - '0') + mulrem;
 mulrem = mul / 10;
 add = (dest[k] - '0') + (mul % 10) + addrem;
 addrem = add / 10;
@@ -116,7 +116,7 @@ for (l1 = 0; argv[1][l1]; l1++)
 for (l2 = 0; argv[2][l2]; l2++)
 ;
 ln = l1 + l2 + 1;
-a = malloc(ln * sizeof(char));
+a = malloc(ln *sizeof(char));
 if (a == NULL)
 {
 for (ti = 0; e[ti]; ti++)
